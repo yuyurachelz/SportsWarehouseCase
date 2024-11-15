@@ -1,0 +1,4 @@
+Fix issue with cart quantity not updating on item removal
+
+Fixed an issue where removing an item from the cart didn't update the total quantity correctly.
+Updated `updateCartQuantity()` function to re-calculate the total after item removal.
